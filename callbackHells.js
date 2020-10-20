@@ -18,10 +18,18 @@ function adios(nombre, otroCallBack){
   }, 1000);
 };
 
-
+function conversacion(nombre, veces, callback) {
+  //recursividad llamar a la funcion con una informacion igermante distinta
+}
 console.log('Iniciando proceso...');
-hola('Bryan', function (nombre) {
-  hablar(function() {
+
+/*hola('Bryan', function (nombre) {
+  adios(nombre, function () {
+      console.log('Terminamos');
+    });
+  });*/
+
+  /*hablar(function() {
     hablar(function(){
       hablar(function(){
       adios(nombre, function() {
@@ -30,4 +38,4 @@ hola('Bryan', function (nombre) {
       });
     });
   });
-});
+});*/
