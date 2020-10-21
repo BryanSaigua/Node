@@ -7,6 +7,19 @@ let intervalo = setInterval(function () {
   i++;
 },1000);*/
 
-/*setImmediate(function () { //inmediatos 
+/*setImmediate(function () { //inmediatos
   console.log('Hola');
 });*/
+
+//require();
+
+//proceso
+//console.log(process);
+// lugar donde estamos
+//console.log(__dirname);
+// lugar del archivo
+//console.log(__filename);
+
+global.miVariable = 'elValor'
+
+console.log(miVariable);
